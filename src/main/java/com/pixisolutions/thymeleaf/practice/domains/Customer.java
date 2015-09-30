@@ -36,4 +36,8 @@ public class Customer {
     public void setCreated(Date created) {
         this.created = created;
     }
+
+    public List<Order> getOrders() {
+        return orders;
+    }
 }
